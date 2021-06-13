@@ -212,6 +212,7 @@ img {
 .hero-title {
     font-size: 70px;
     color: white;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
@@ -225,7 +226,10 @@ img {
 .track-block {
     padding: 60px 40px;
     text-align: center;
-    background-color: #fff;
+    background: #fff url(../img/track-block-bg-img-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     border-radius: 6px;
 }
 .track-title {

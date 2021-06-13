@@ -22,7 +22,7 @@
             </label>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="./about.php" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="./about-us.php" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="./track-item.php" class="nav-link">Track</a></li>
                 <li class="nav-item"><a href="./services.php" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="./contact.php" class="nav-link">Contact</a></li>
