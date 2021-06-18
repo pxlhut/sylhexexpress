@@ -50,6 +50,6 @@
 
     <!-- footer section end -->
 
-
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
