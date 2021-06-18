@@ -36,6 +36,7 @@ img {
     --container-width: 1320px;
     --primary-color: #e11d07;
     --primary-drake-color: #111111;
+    --section-padding: 180px 15px 60px;;
 }
 
 .wrapper {
@@ -118,7 +119,7 @@ img {
     background-color: var(--primary-color);
     min-height: 400px;
     background-size: cover;
-    padding: 180px 15px 60px;
+    padding: var(--section-padding);
 }
 
 .page-header {
@@ -153,12 +154,10 @@ img {
 }
 
 .content-title {
-
     margin-bottom: 30px;
 }
 
 .content-text {
-
     margin-bottom: 25px;
 }
 
@@ -198,6 +197,12 @@ img {
     transition: top 300ms ease-in-out;
 }
 
+.nav-logo {
+    height: 50px;
+    object-fit: contain;
+    object-position: left center;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -222,8 +227,8 @@ img {
 .toggle {
     display: none;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .toggle-icon {
@@ -287,7 +292,7 @@ img {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cargo-photography.jpg);
     background-position: center;
     background-size: cover;
-    padding: 180px 15px 60px;
+    padding: var(--section-padding);
 }
 
 .hero-block {
@@ -351,8 +356,8 @@ img {
 }
 
 .track-input:focus {
-
     border: 1px solid var(--primary-color);
+    outline: 5px solid rgba(225, 29, 7, 0.4);
 }
 
 .track-input::placeholder {
@@ -369,7 +374,9 @@ img {
     color: #fff;
     background-color: var(--primary-color);
     border: 0;
-    transition: letter-spacing 300ms ease;
+    transition: letter-spacing 300ms ease,
+                background 300ms ease,
+                color 300ms ease;
     cursor: pointer;
 }
 
@@ -775,6 +782,67 @@ img {
 
 /* service page design  */
 
+/* Order Track Page Design */
+.track-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/sylhexexpress-service-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-track-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--section-padding);
+    min-height: 100vh;
+}
+
+.order-track-block {
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+}
+
+.order-track-block .track-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+}
+
+.track-block-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.track-block-text {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.track-search-input {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: var(--primary-drake-color);
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 2px solid var(--primary-color);
+}
+.track-search-input::placeholder {
+    color: #555555;
+}
+
+.track-search-input:focus {
+    border: 2px solid var(--primary-color);
+    outline: 5px solid rgba(225, 29, 7, 0.4);
+}
+/* Order Track Page Design */
 
 /* responsive design media start*/
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -825,10 +893,7 @@ img {
 @media (max-width: 991.98px) {
     :root {
         --container-width: 720px;
-    }
-
-    .header-hero {
-        padding-top: 90px;
+        --section-padding: 140px 15px 80px;
     }
 
     .hero-block {
@@ -863,6 +928,9 @@ img {
         border-radius: 0;
         height: 60px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    .nav-logo {
+        height: 40px;
     }
 
     .toggle {

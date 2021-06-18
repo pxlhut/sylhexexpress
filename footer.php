@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="footer-main">
                 <div class="company-info">
-                    <img src="assets/img/logo.png" alt="Sylhex Express Logo" class="company-logo">
+                    <img src="assets/img/logo-light.png" alt="Sylhex Express Logo" class="company-logo">
                     <p class="footer-company-text">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et magni autem laudantium magnam voluptates maxime quas impedit deleniti nulla modi!
                     </p>

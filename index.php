@@ -25,7 +25,7 @@
                             <p class="track-text">ENTER YOUR TRACK ID FOR INSTANT SEARCH</p>
                             <form class="track-form" action="">
                                 <input class="track-input" type="text" name="tracking-id" placeholder="Enter tracking number">
-                                <input class="track-btn" type="submit" value="Track">
+                                <input class="primary-btn track-btn" type="submit" value="Search">
                             </form>
                         </div>
                     </div>
